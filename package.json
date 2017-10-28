@@ -1,6 +1,6 @@
 {
   "name": "eris",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "description": "A NodeJS Discord library",
   "main": "./index.js",
   "engines": {
@@ -27,6 +27,7 @@
   },
   "homepage": "https://abal.moe/Eris/",
   "dependencies": {
+<<<<<<< HEAD
     "ws": "^2.1.0",
     "bluebird": "^3.5.0",
     "bufferutil": "^3.0.0",
@@ -36,10 +37,13 @@
     "pako": "^1.0.5",
     "sodium-native": "^1.7.0",
     "uws": "^0.14.1"
+=======
+    "ws": "^3.2.0"
+>>>>>>> 539a34210b94346451dcf41a8fd2ab9ef9c2fbcc
   },
   "optionalDependencies": {
-    "opusscript": "^0.0.3",
-    "tweetnacl": "^1.0.0-rc.1"
+    "opusscript": "^0.0.4",
+    "tweetnacl": "^1.0.0"
   },
   "browser": {
     "child_process": false,
